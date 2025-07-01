@@ -19,7 +19,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 
-(app.Environment.IsDevelopment())
+(app.Environment.IsDevelopment());
 
     app.UseSwagger();
     app.UseSwaggerUI(c =>
