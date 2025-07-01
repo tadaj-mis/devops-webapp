@@ -1,4 +1,3 @@
-
 services:
   postgres:
     image: postgres:15
@@ -21,7 +20,7 @@ services:
       timeout: 5s
 
   webapi:
-    image: sooyaa02/noteapi:1.0
+    image: tada39021/noteapi:1.0
     container_name: webapi_container
     build:
       context: ./WebApiProject
