@@ -27,3 +27,4 @@ jobs:
 
       - name: Push Image with Version Tag
         run: docker push tada39021/noteapi:${{ github.run_number }}
+        #Successful push will automatically update the latest tag in Docker Hub
