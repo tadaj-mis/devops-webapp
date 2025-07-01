@@ -32,4 +32,3 @@ jobs:
       - name: Push Docker Image with Compose
         run: docker compose push
 
-
